@@ -72,7 +72,8 @@
 
 .cover {
   color: #fff;
-  background-image: url('../images/cover.jpg');
+  background: url('../images/cover.jpg'), rgb(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
   height: 757px;
   background-size: cover;
   background-position: center;
@@ -82,11 +83,10 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 9px;
 }
 
 .accent__span {
-  display: block;
   font-weight: bold;
   font-size: 100px;
 }
@@ -97,8 +97,14 @@
   letter-spacing: 30px;
 }
 
+.less-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
 .text-center {
-  justify-content: center;
+  margin: 0 345px 0 286px;
 }
 
 .text-right {
@@ -109,6 +115,31 @@
   color: #000;
   background-color: #fff;
   min-height: 100px;
+}
+
+
+.bottom-objects {
+  display: grid;
+}
+
+.cover__text {
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  display: grid;
+  width: 637px;
+  grid-template-columns: 133px 108px 40px 126px 103px 52px 73px;
+  margin: 139px 0 0 28px;
+}
+
+.cover__button {
+  font-size: 22px;
+  width: 256px;
+  height: 51px;
+  color: #fff;
+  background-color: rgb(255, 255, 255, 0);
+  border: #fff solid 1px;
+  text-transform: uppercase;
 }
 
 .about {
