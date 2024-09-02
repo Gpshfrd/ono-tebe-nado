@@ -111,15 +111,9 @@
   justify-content: right;
 }
 
-.lots {
-  color: #000;
-  background-color: #fff;
-  min-height: 100px;
-}
-
-
 .bottom-objects {
   display: grid;
+  grid-template-columns: 715px 385px;
 }
 
 .cover__text {
@@ -140,6 +134,21 @@
   background-color: rgb(255, 255, 255, 0);
   border: #fff solid 1px;
   text-transform: uppercase;
+  margin: 126px 50px 50px 29px;
+}
+
+.cover__button-link {
+  text-decoration: none;
+}
+
+.lots {
+  color: #000;
+  background-color: #fff;
+  margin: 179px 24px 146px; 
+}
+
+lots__title {
+  
 }
 
 .about {
