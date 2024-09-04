@@ -13,7 +13,7 @@
   font-weight: normal;
 }
 
-.header__menu {}
+/* .header__menu {} */
 
 .header__links-list {
   display: flex;
@@ -152,12 +152,12 @@
   z-index: 1;
 }
 
-.cover__button {
+.bet__button {
   font-size: 22px;
   width: 256px;
   height: 51px;
   color: #fff;
-  background-color: rgb(255, 255, 255, 0);
+  background: transparent;
   border: #fff solid 1px;
   text-transform: uppercase;
   position: absolute;
@@ -347,7 +347,7 @@
   font-size: 18px;
 }
 
-.footer__menu-list-item {}
+/* .footer__menu-list-item {} */
 
 .footer__menu-link {
   text-decoration: none;
@@ -358,10 +358,16 @@
   border: none;
 }
 
-.footer__social-list {}
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
 
-.footer__social-list-item {}
+/* .footer__social-list-item {} */
 
-.footer__social-link {}
+/* .footer__social-link {} */
 
-.footer__social-icon {}
+.footer__social-icon {
+  width: 48px;
+}
