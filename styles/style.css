@@ -7,8 +7,6 @@
   font-weight: normal;
 }
 
-/* .header__menu {} */
-
 .header__links-list {
   display: flex;
   gap: 31px 32px;
@@ -336,8 +334,6 @@
   font-size: 18px;
 }
 
-/* .footer__menu-list-item {} */
-
 .footer__menu-link {
   text-decoration: none;
   border-bottom: #000 solid 1px;
@@ -352,10 +348,6 @@
   display: flex;
   gap: 48px;
 }
-
-/* .footer__social-list-item {} */
-
-/* .footer__social-link {} */
 
 .footer__social-icon {
   width: 48px;
