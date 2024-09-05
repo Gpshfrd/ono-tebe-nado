@@ -107,7 +107,7 @@
   gap: 9px;
   position: absolute;
   z-index: 1;
-  margin: 165px 25px 237px 50px;
+  margin: 165px 0 237px 50px;
 }
 
 .accent__span {
