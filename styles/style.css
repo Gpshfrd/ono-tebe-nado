@@ -133,15 +133,18 @@
 }
 
 .cover__text {
-  font-weight: normal;
-  font-size: 22px;
-  text-transform: uppercase;
   display: grid;
   width: 637px;
   grid-template-columns: 133px 108px 40px 126px 103px 52px 73px;
   margin: 667px 385px 62px 78px;
   position: absolute;
   z-index: 1;
+}
+
+.cover__text-item {
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 .bet__button {
