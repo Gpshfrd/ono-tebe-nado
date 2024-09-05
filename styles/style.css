@@ -250,7 +250,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   margin: 0 24px 180px;
-  padding-right: 48.5px;
+  padding-right: 1px;
 }
 
 .about__column {
